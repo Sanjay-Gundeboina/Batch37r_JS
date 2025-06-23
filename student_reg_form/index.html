@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: beige;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_container{
+        border: 2px solid black;
+        padding:30px;
+        background-color: white;
+        width: 400px;
+        text-align: center;
+    }
+    #form1 label{
+        display:block;
+        margin: 10px 0 5px;
+        text-align: left;
+    }
+    
+    #form1 button{
+          margin-top: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+    }
+    #form1 input{
+        width:100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    #form1 h1{
+        margin-bottom: 20px;
+    }
+
+    </style>
+</head>
+
+<body>
+   
+        <form id="form1">
+            <div class="main_container">
+            <h1>STUDENT REGISTRATION FORM</h1>
+
+            <label for="stu_name">STUDENT NAME</label>
+            <input type="text" id="stu_name" placeholder="Enter Your name">
+
+            <label for="stu_age">AGE</label>
+            <input type="number" id="stu_age" placeholder="Enter Your age">
+
+            <label for="stu_grade"> GRADE </label>
+            <input type="text" id="stu_grade" placeholder="Enter grade ">
+
+            <label for="stu_mblno">MOBILE NUMBER</label>
+            <input type="number" id="stu_mblno" placeholder="Enter your number">
+
+            <label for="stu_address">ADDRESS</label>
+            <textarea id="stu_address" placeholder="Enter Your address" rows="5" cols="40"></textarea><br>
+
+            <button type="button" onclick=handleRegister()> REGISTER </button>    
+            </div>
+        </form>
+    <script src="./script.js"></script>
+</body>
+</html>
