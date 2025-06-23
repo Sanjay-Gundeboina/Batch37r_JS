@@ -19,24 +19,31 @@ let user_details={
 let users=window.localStorage.getItem("users")
 users=JSON.parse(users)||[ ]
 users.push(user_details)
-user_details=JSON.stringify(users)
+users_str=JSON.stringify(users)
 
-window.localStorage.setItem("users",user_details)
+window.localStorage.setItem("users",users_str)
 alert("user register successfully")
 
 
-user_details.forEach((v)=>{
+let displayDiv = document.getElementById("userDisplay");
+    displayDiv.innerHTML = "";
+
+
+users.forEach((v)=>{
     const div=document.createElement("div")
-    div.classname="user_details"
+    div.className="user_details"
     div.innerHTML = `
+            <br>
               <strong>Name:</strong> ${v.name}<br>
               <strong>Age:</strong> ${v.Age}<br>
               <strong>Grade:</strong> ${v.Grade}<br>
-              <strong>Mobile number:</strong> ${v.stu_mbl_no}<br>
+              <strong>Mobile number:</strong> ${v.mbl_no}<br>
               <strong>Address:</strong> ${v.Address}<br>
             `;
+displayDiv.appendChild(div)
 
 })
-document.body.append(div)
+
+
 // document.body.append(user_details)
 }
