@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "7952",
+      "username": "Sanjay",
+      "password": "Sanju@111",
+      "mbno": "7993601902",
+      "email": "sanju@gmail.com"
+    },
+    {
+      "id": "9386",
+      "username": "sai",
+      "password": "sai@123",
+      "mbno": "6300670325",
+      "email": "sai@gmail.com"
+    }
+  ]
+}

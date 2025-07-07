@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: mistyrose;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        #signup_cont {
+            border: 2px solid black;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: white;
+            width: 400px;
+            text-align: center;
+        }
+
+        #signup_cont h1 {
+            margin-bottom: 20px;
+        }
+
+        #signup_cont label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: left;
+        }
+
+        #signup_cont input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        #signup_cont button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <div id="signup_cont">
+            <h1>SIGNUP</h1>
+            
+            <label for="username">USERNAME:</label>
+            <input type="text" id="username" placeholder="Enter user name">
+            
+            <label for="mob">MOBILE NO:</label>
+            <input type="number" id="mob" placeholder="Enter mobile number">
+
+           
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" placeholder="Enter password">
+            
+            <label for="con_pass">RE-ENTER PASSWORD:</label>
+            <input type="password" id="con_pass" placeholder="Retype password">
+            
+            <button type="button" onclick=handleregister()>REGISTER</button>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

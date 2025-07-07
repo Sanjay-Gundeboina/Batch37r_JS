@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "prd_name": "laptop",
+      "price": 55000
+    },
+    {
+      "id": 2,
+      "name": "keyboard",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "prd_name": "mouse",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "prd_name": "Andriod mobile",
+      "price": 30000
+    },
+    {
+      "id": 5,
+      "prd_name": "iphone 16",
+      "price": 100000
+    },
+    {
+      "id": 5,
+      "prd_name": "case",
+      "price": 1000
+    },
+    {
+      "id": 7,
+      "prd_name": "charger",
+      "price": 2500
+    },
+    {
+      "id": 8,
+      "prd_name": "canon camera",
+      "price": 250000
+    },
+    {
+      "id": 9,
+      "prd_name": "canon camera lens",
+      "price": 5000
+    },
+    {
+      "id": 10,
+      "prd_name": "cooling pad",
+      "price": 3000
+    }
+  ]
+}

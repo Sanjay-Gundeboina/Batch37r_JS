@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:0px;
+        margin:0px;
+       
+    }
+    .parent{
+        height: 100vh;
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .main_reg{
+        height:600px;
+        width:600px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position:relative;
+        gap:15px;
+        background-color:cadetblue;
+        
+    }
+
+    h1{
+        position:absolute;
+        top:20px;
+    }
+    input{
+        height:30px;
+        width:300px;
+        
+    }
+    button{
+        font-size: 16px;
+    }
+</style>
+<body>
+   <div class="parent"> 
+    <div class="main_reg">
+    <h1>USER REGISTRATION FORM</h1>
+    <label for="">USERNAME:</label>
+    <input type="text" id="username" placeholder="username" required>
+    <label for="">PASSWORD:</label>
+    <input type="password" id="password" placeholder="password" required>
+    <label for="">MOBILE NUMBER:</label>
+    <input type="text" class="mbno" placeholder="mbno" required>
+    <label for="">EMAIL:</label>
+    <input type="text" id="email" placeholder="email" required>
+    <button onclick="handleregister()">SUBMIT</button>
+    <script src="./script.js"></script>
+    </div>
+    </div>
+</body>
+</html>
