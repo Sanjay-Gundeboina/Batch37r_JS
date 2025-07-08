@@ -1,5 +1,32 @@
 {
   "users": [
-    
-      ]
+    {
+      "id": "7180",
+      "username": "sanjay",
+      "password": "sanjay@1",
+      "mbno": "7993601901",
+      "email": "Sanjay@gmail.com"
+    },
+    {
+      "id": "07fb",
+      "username": "madhu",
+      "password": "madhu@1",
+      "mbno": "9632556820",
+      "email": "madhu@gmail.com"
+    },
+    {
+      "id": "06bb",
+      "username": "sai",
+      "password": "madhu@1",
+      "mbno": "963255681",
+      "email": "sai@gmail.com"
+    },
+    {
+      "id": "f9ab",
+      "username": "abdul",
+      "password": "abdul@1",
+      "mbno": "963563245",
+      "email": "abdul@gmail.com"
+    }
+  ]
 }
