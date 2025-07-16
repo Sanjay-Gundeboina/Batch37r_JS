@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.parent{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f0f0;*/
+
+}
+.child{
+    height:450px;
+    width:320px;
+    border:2px solid black;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.display{
+    height:80px;
+    width:100%;
+    font-size:24px;
+    padding:10px;
+    text-align:right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: auto;
+    background-color:	#fff8dc;
+}
+.main_cal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.op1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+  
+
+}
+.btn{
+    height:50px;
+    width:50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: 0.2s;
+   
+   
+}
+.btn:hover {
+  background-color: #d4d4d4;
+}
+
+
+
+
+
+

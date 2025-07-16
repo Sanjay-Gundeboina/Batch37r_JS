@@ -193,15 +193,14 @@
 
 
 
-let str1="ancdefbja"
-let str2=" "
+// let str1="ancdefbja"
+// let str2=" "
+// for(i=0;i<str1.length;i++){
+//     for(j=0;j<str2.length;j++){
+//         if(!str1[i].includes(str2[j])){
+//             str2+=(str1[i])
+//         }
+//     }
 
-for(i=0;i<str1.length;i++){
-    for(j=0;j<str2.length;j++){
-        if(!str1[i].includes(str2[j])){
-            str2+=(str1[i])
-        }
-    }
-
-}
-console.log(str2)
+// }
+// console.log(str2)

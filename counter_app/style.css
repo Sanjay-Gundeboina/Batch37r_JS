@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.parent{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAD8A4;
+
+}
+.child{
+    height:400px;
+    width:400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 70px;
+    background-color: #ECEDB0;
+}
+#counter{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.btn{
+    height:30px;
+    width:120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#D6D85D;
+}
