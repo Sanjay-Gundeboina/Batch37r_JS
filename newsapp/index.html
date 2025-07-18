@@ -9,10 +9,32 @@
 <body>
     <!-- <div class="parent"> -->
     <div class="nav">
-        <h2 class="logo">10K NEWS</h2>
-        <input type="search" class="search" >
+        <h2 class="logo">NEWS@10K</h2>
+      
+        <div class="popular-news-container">
+            <span class="popular-news-title">Most Popular News</span>
+            <div class="categories">
+                <button class="cat-btn" data-category="ipl">IPL</button>
+                <button class="cat-btn" data-category="technology">Technology</button>
+                <button class="cat-btn" data-category="politics">Politics</button>
+                <button class="cat-btn" data-category="india">India</button>
+            </div>
+        </div>
+
+        <input type="search" class="search" id="searchinput" placeholder="       Search-News">
+        
+
     </div>
     <!-- </div> -->
+     <div class="news" id="news-cont"></div>
+        <div id="no_data">
+            <h1>No Data Found</h1>
+        </div>
+     
+     <div>
+        <h1 id="load">Loadinggg...</h1>
+     </div>
+    
 
 <script src="./script.js"></script>
 </body>
