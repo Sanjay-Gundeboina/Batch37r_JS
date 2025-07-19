@@ -23,6 +23,9 @@ let fetchData=async (search)=>{
     try{
         load.style.display="block";
         let data= await fetch(`${url}?q=${search}&apikey=${api_key}`);
+         headers: {
+             "User-Agent": "my-news-app"
+        }
         let jsondata= await data.json();
         load.style.display="none";
         // console.log(jsondata.articles)
