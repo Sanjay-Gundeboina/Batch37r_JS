@@ -33,8 +33,7 @@ let fetchData=async (search)=>{
     }
 }
 let allNewsData=((data)=>{
-    // news_cont.innerHTML = "";
-    if(data.length===0){
+   if(data.length===0){
         // console.log("No data found");
         nodata.style.display="block";
     }
